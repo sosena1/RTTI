@@ -6,11 +6,9 @@ LISTA ZADAŃ DO WYKONANIA NA LABORATORIUM:
 <b>Cat</b> - dziedzicząca publicznie po klasie <b>Animal</b>.
 <b>Dog</b> - dziedzicząca publicznie po klasie <b>Animal</b>. </p>
 <p>Uzupełnij kod programu tak, aby klasa: <p><b>Animal</b> wypisywała informacje o zwierzęciu;</p> <p><b>Cat</b> wypisywała informację o nazwie zwierzęcia ("Cat") przy użyciu metody <b>whatAnimal</b>; <p><b>Dog</b> wypisywała informację o nazwie zwierzęcia ("Dog") przy użyciu metody <b>whatAnimal</b>; <p>Należy Stworzyć obiekty typu <b>Dog</b> i <b>Cat</b> oraz przetestować na nich działanie operatora <b>typeid(...).name().</b></p>
-dasd
-da
-ca
+
   
-<p align = "justify">1.2. Stworzyć klasę <b>RandomAnimals</b> posiadająca dwie składowe - wektor wskaźników na obiekty typu <b>Animal</b> oraz wektor wskaźników na obiekty typu <b>Cat</b>. W klasie zdefiniować również funkcję <b>insertRandomAnimals</b> dodającą otrzymaną jako argument liczbę nowych obiektów do wektora typu <b>Animal</b>. Typ nowo dodawanego elementu powinien być każdorazowo wybierany w sposób losowy (typ <b>Cat</b> albo <b>Dog</b>). Ponadto, jeżeli dodawany obiekt jest typu <b>Cat</b>, powinien on być również dodawany do wektora typu <b>Cat</b>. W implementacji wykorzystać operator <b>typeid</b>.</p>
+<p align = "justify">1.2. W utworzonej klasie <b>RandomAnimals</b> posiadającej dwie składowe - wektor wskaźników na obiekty typu <b>Animal</b> oraz wektor wskaźników na obiekty typu <b>Cat</b> należy zdefiniować również funkcję <b>insertRandomAnimals</b> dodającą otrzymaną jako argument liczbę nowych obiektów do wektora typu <b>Animal</b>. Typ nowo dodawanego elementu powinien być każdorazowo wybierany w sposób losowy (typ <b>Cat</b> albo <b>Dog</b>). Ponadto, jeżeli dodawany obiekt jest typu <b>Cat</b>, powinien on być również dodawany do wektora typu <b>Cat</b>. W implementacji wykorzystać operator <b>typeid</b>.</p>
 
 <p align = "justify">1.3. Wewnątrz klasy <b>RandomAnimals</b> stworzyć funkcję <b>getCats</b>, która zwraca przez referencję wektor obiektów typu <b>Cat</b> będący składową klasy. W metodzie <b>main</b> stworzyć obiekt typu <b>RandomAnimals</b> i przetestować funkcję <b>insertRandomAnimals</b>. Pobrać z obiektu wektor typu <b>Cat</b>, wyświetlić jego rozmiar (tzn. sprawdzić liczbę wylosowanych obiektów typu <b>Cat</b>) i na rzecz każdego jego elementu wywołać metodę <b>whatAnimal</b>.</p>
 
