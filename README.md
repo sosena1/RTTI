@@ -12,8 +12,9 @@ LISTA ZADAŃ DO WYKONANIA NA LABORATORIUM:
 
 <p align = "justify">1.3. Wewnątrz klasy <b>RandomAnimals</b> stworzyć funkcję <b>getCats</b>, która zwraca przez referencję wektor obiektów typu <b>Cat</b> będący składową klasy. W metodzie <b>main</b> stworzyć obiekt typu <b>RandomAnimals</b> i przetestować funkcję <b>insertRandomAnimals</b>. Pobrać z obiektu wektor typu <b>Cat</b>, wyświetlić jego rozmiar (tzn. sprawdzić liczbę wylosowanych obiektów typu <b>Cat</b>) i na rzecz każdego jego elementu wywołać metodę <b>whatAnimal</b>.</p>
 
-<p align = "justify">2.1. Zaimplementować następującą hierarchię klas: klasę <b>Coach</b> oraz dziedziczące po niej publicznie klasy <b>BaseballCoach</b>, <b>GymCoach</b> i <b>SwimmingCoach</b>. W klasie <b>Coach</b> zadeklarować czysto wirtualną metodę <b>virtual void getDailyTraining()</b> oraz zdefiniować ją dla poszczególnych klas potomnych. Metoda ta powinna wyświetlać na ekran polecenia wydawane przez trenerów - charakterystyczne dla dziedziny sportu, którą dany trener się zajmuje (np. "Podnieś ciężary" w przypadku trenera <b>GymCoach</b>, itp.). Następnie napisać funkcję <b>void performTraining</b> przyjumującą jako argument wskaźnik na obiekt typu <b>Coach</b> i wywołującą funkcję <b>getDailyTraining</b> na jego rzecz. Przetestować działanie tej funkcji dla różnych typów trenerów. 
-</p>
+<p align = "justify">2.1. Zaimplementowana została następująca hierarchia klas:
+<p><b>Coach</b></p> oraz dziedziczące po niej publicznie klasy <b>BaseballCoach</b>, <b>GymCoach</b>, <b>SwimmingCoach</b>.</p>
+<p>W klasie <b>Coach</b> należy zadeklarować czysto wirtualną metodę <b>virtual void getDailyTraining()</b> oraz zdefiniować ją dla poszczególnych klas potomnych. Metoda ta powinna wyświetlać na ekran polecenia wydawane przez trenerów - charakterystyczne dla dziedziny sportu, którą dany trener się zajmuje (np. "Podnieś ciężary" w przypadku trenera <b>GymCoach</b>, itp.). Następnie napisać funkcję <b>void performTraining</b> przyjmującą jako argument wskaźnik na obiekt typu <b>Coach</b> i wywołującą funkcję <b>getDailyTraining</b> na jego rzecz. Przetestować działanie tej funkcji dla różnych typów trenerów.</p>
 
 <p align = "justify">2.2. Dla utworzonych w poprzednim podpunkcie klas zdefiniować następujące metody:
   <p>- <b>void getSaturdayTraining()</b> - dla klasy <b>BaseballCoach</b>, </p>
